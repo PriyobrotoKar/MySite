@@ -318,11 +318,11 @@ body {
 }
 
 .boxes {
-    width: 80%;
+    width: 83%;
     height: 430px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     overflow-y: scroll;
     padding: 30px;
