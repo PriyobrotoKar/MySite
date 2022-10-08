@@ -240,7 +240,23 @@ body {
     background-color: rgb(117, 66, 87);
     /* display: none; */
 }
-
+.button{
+    animation: navi 2s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes navi {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
 .nextbtn {
     display: inline;
     position: absolute;
