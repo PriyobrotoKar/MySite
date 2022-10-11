@@ -103,10 +103,11 @@ body{
 }
 .boxes{
     padding: 10px;
+    justify-content: space-between;
 }
 .box{
-    width: 120px;
-    height: 165px;
+    width: 110px;
+    height: 168px;
     padding: 5px;
 }
 .avatar img{
